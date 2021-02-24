@@ -1,0 +1,38 @@
+{
+    "name": "beta/bx.rest.project",
+    "description": "Каркас REST API приложения на Bitrix",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Nesterov",
+            "email": "alex19pov31@gmail.com"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "local/modules/{$name}/": ["type:bitrix-module"]
+        }
+    },
+    "require": {
+        "composer/installers": "^1.10",
+        "andreyryabin/sprint.migration": "^3.24",
+        "beta/bx.router": "dev-master",
+        "beta/bx.jwt": "dev-master",
+        "beta/bx.model": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@cvs.beta.agency:nesterov/bx.router.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@cvs.beta.agency:nesterov/bx.jwt.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@cvs.beta.agency:nesterov/bx.model.git"
+        }
+    ]
+}
