@@ -1,4 +1,8 @@
 /vendor
 /bitrix
 /upload
+/local/modules/bx.jwt
+/local/modules/bx.model
+/local/modules/bx.router
+/local/modules/sprint.migration
 /.idea

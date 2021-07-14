@@ -17,22 +17,14 @@
     "require": {
         "composer/installers": "^1.10",
         "andreyryabin/sprint.migration": "^3.24",
-        "beta/bx.router": "dev-master",
-        "beta/bx.jwt": "dev-master",
-        "beta/bx.model": "dev-master"
+        "beta/bx.router": "^1.0",
+        "beta/bx.jwt": "^1.0",
+        "beta/bx.model": "^1.0"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@cvs.beta.agency:nesterov/bx.router.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@cvs.beta.agency:nesterov/bx.jwt.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@cvs.beta.agency:nesterov/bx.model.git"
+            "url": "git@github.com:beta-eto-code/bx.router.git"
         }
     ]
 }
